@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* /////////
+1-heading
+//////// */
+
+header {
+    background-color: rgb(47, 47, 43);
+    color: white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition: all 0.3s;
+}
+
+header h1 {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.parent li a {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 6px;
+    display: inline-block;
+}
+
+.parent li:hover {
+    border-bottom: 2px solid rgba(184, 176, 176, 0.584);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+#foods {
+    display: flex;
+}
+
+
+/* //////hidden js  */
+
+#hiddenul {
+    display: block;
+    position: absolute;
+    box-shadow: 0 5px 25px rgb(0 0 0/60%);
+    padding: 1rem;
+    border-radius: .5rem;
+    color: #3d4a59;
+    margin-right: 1rem;
+    background-color: white;
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    min-width: 100px;
+    margin-top: 10px;
+}
+
+#hiddenul li:hover {
+    font-weight: 400;
+    border-bottom: 1px solid rgb(72, 56, 56);
+}
+
+#foods {
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+
+/* ///////
+2-Image 
+/////// */
+
+.parent {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 0 19%;
+    margin-top: 25px;
+    /* box-shadow: 0 5px 35px
+     rgba(0, 0, 0, 0.082); */
+}
+
+.child {
+    padding: 15px;
+    color: black;
+    text-align: center;
+}
+
+.child:hover {
+    box-shadow: 5px 5px 15px gray;
+}
+
+@media (max-width:700px) {
+    .parent {
+        flex-wrap: wrap;
+    }
+}
+
+.image {
+    width: 230px;
+    height: 320px;
+}
+
+h1 {
+    font-size: 17px;
+    font-family: 'Cairo', sans-serif !important;
+}
+
+p {
+    font-size: 12px;
+}
+
+.number {
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 40%;
+    outline: 0;
+}
+
+.number p {
+    font-size: 20px;
+}
+
+.number p:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* ///////
+3-Image chif 
+/////// */
+
+.thired p {
+    margin-top: 3%;
+    font-size: 22px;
+    text-align: center;
+}
+
+.thired h2 {
+    margin-top: 2%;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.chef {
+    margin-top: 1%;
+    margin-left: 27%;
+    width: 45%;
+}
+
+.thired .paraghrah {
+    font: 1em sans-serif;
+    padding: 0 14%;
+    font-family: 'Cairo', sans-serif !important;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////
+4-footer
+//////////////////////////////////////////////// */
+
+footer {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 14%;
+}
+
+footer ul {
+    width: 300px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+footer .para {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+footer a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    background-color: #616161!important;
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+footer ul a:hover {
+    background-color: black;
+}
+
+footer .travel {
+    background-color: black !important;
+}
+
+.BLOG div {
+    display: flex;
+}
+
+.BLOG div p {
+    margin-left: 15%;
+    margin-bottom: 18%;
+    font-size: 12px;
+}
+
+.BLOG img {
+    width: 40px;
+    height: 40px;
+}
+
+.BLOG div:hover {
+    background-color: rgb(156, 153, 153);
+}
+
+.footer-end {
+    color: white;
+    background-color: rgb(47, 47, 43);
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bold;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.footer-end p {
+    font-size: 15px;
+}
